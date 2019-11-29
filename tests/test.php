@@ -25,4 +25,14 @@ class MbstringTest extends PHPUnit_Framework_TestCase
       $this->assertEquals(3, strlen($acture));
     }
 
+    function testInternalEncoding()
+    {
+      $p = \PMVC\plug($this->_plug);
+      $old = $p->internalEncoding();
+      mb_internal_encoding("big-5");
+      $acture = $p->internalEncoding();
+      $this->assertEquals('BIG-5', $acture);
+      $p->internalEncoding($old);
+      $this->assertEquals($old, $p->internalEncoding());
+    }
 }
