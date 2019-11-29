@@ -1,0 +1,19 @@
+{
+    "name": "pmvc-plugin/mbstring",
+    "description": "mbstring",
+    "type": "library",
+    "homepage": "https://github.com/pmvc/pmvc",
+    "keywords": ["mbstring", "pmvc", "plug-in"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hill",
+            "email": "hill@kimo.com"
+        }
+    ],
+    "require": {
+        "ext-mbstring": "*",
+        "pmvc/pmvc": "*"
+    },
+    "minimum-stability": "dev"
+}
