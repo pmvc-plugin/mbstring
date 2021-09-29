@@ -1,6 +1,6 @@
 [![Latest Stable Version](https://poser.pugx.org/pmvc-plugin/mbstring/v/stable)](https://packagist.org/packages/pmvc-plugin/mbstring) 
 [![Latest Unstable Version](https://poser.pugx.org/pmvc-plugin/mbstring/v/unstable)](https://packagist.org/packages/pmvc-plugin/mbstring) 
-[![Build Status](https://travis-ci.org/pmvc-plugin/mbstring.svg?branch=master)](https://travis-ci.org/pmvc-plugin/mbstring)
+[![CircleCI](https://circleci.com/gh/pmvc-plugin/mbstring/tree/master.svg?style=svg)](https://circleci.com/gh/pmvc-plugin/mbstring/tree/master)
 [![License](https://poser.pugx.org/pmvc-plugin/mbstring/license)](https://packagist.org/packages/pmvc-plugin/mbstring)
 [![Total Downloads](https://poser.pugx.org/pmvc-plugin/mbstring/downloads)](https://packagist.org/packages/pmvc-plugin/mbstring) 
 
