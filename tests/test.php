@@ -1,11 +1,11 @@
 <?php
 namespace PMVC\PlugIn\mbstring;
 
-use PHPUnit_Framework_TestCase;
+use PMVC\TestCase;
 
 const MULTIBYTE_STRING='或許會成功';
 
-class MbstringTest extends PHPUnit_Framework_TestCase
+class MbstringTest extends TestCase
 {
     private $_plug = 'mbstring';
     function testPlugin()
@@ -14,7 +14,7 @@ class MbstringTest extends PHPUnit_Framework_TestCase
         print_r(\PMVC\plug($this->_plug));
         $output = ob_get_contents();
         ob_end_clean();
-        $this->assertContains($this->_plug,$output);
+        $this->haveString($this->_plug,$output);
     }
 
     function testSubstr()

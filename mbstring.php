@@ -17,7 +17,7 @@ class mbstring extends PlugIn
 
     public function __call($method, $args)
     {
-        $mbFunc = 'mb_' . \PMVC\camelCase($method, '_');
+        $mbFunc = 'mb_' . \PMVC\splitCamelCase($method, '_');
         if (function_exists($mbFunc)) {
             return call_user_func_array($mbFunc, $args);
         } else {
